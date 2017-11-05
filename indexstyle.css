@@ -5,7 +5,7 @@
       color: white;
     }
 
- img {
+ img.header_image{
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
       border-radius: 20px;	  
@@ -13,7 +13,7 @@
       height: auto;
 }
 
-a {
+.headerclass a {
       color:white;
  }
 
@@ -26,6 +26,35 @@ a {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+
+ .bottomofpage ul {
+      position: bottom;
+      list-style-type: none;
+      padding: 20px;
+      overflow:hidden;
+      background:rgba(0,0,0,0.5);
+    }
+
+
+ .bottomofpage li {
+  display: inline;
+  padding: 10px 10px 0px 10px;
+    }
+
+   .bottomofpage li a{
+    display:inline-block;
+    color:grey;
+    text-align: center;
+    padding:5px 5px;
+    text-decoration: none;
+    }
+
+    .bottomofpage li a:hover{
+      background-color: #111;
+    }
+
+
+
 
 body {
   font-family: helvetica, sans-serif;
@@ -69,8 +98,13 @@ h2 {
   color: #bbbbbb;
   margin: 0px 0 70px 0;
 }
+h3 {
+  text-align: left;
+  color: #bbbbbb;
+  margin: 50px 0 50px 0;
+}
 
-p {
+.first p , .second p , .third p{
   color: rgba(255,255,255,1);
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -134,9 +168,82 @@ line-height: 24px;
 small{
   font-size: 16px;
   }
+
 }
 
 
+
+
+/*img.twoimage #imgone{
+
+  position:absolute;
+  right:0px;
+  width: 300px;
+  border:3px solid #73AD21;
+}
+
+img.twoimage #imgtwo{
+
+  position:absolute;
+  left:0px;
+  width: 300px;
+  border:3px solid #73AD21;
+  
+}*/
+
+/*
+.threeimages .image3 img{
+ float:left;
+ width:30%;
+ border:3px solid #73AD21;
+ padding:10px; 
+}*/
+
+
+div.galleryindex{
+  margin: 5px;
+  border:1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.galleryindex:hover{
+  border:1px solid #777;
+}
+div.galleryindex img {
+  width:100%;
+  height:auto;
+ /* instead of a separate class for the image you can put it here
+  border: 7px solid white;
+  border-radius: 20px;   */ 
+}
+div.desc{
+  padding: 15px;
+  text-align: center;
+}
+
+
+/*img.gallerychild{}
+      margin: auto;
+      border: 7px solid white;
+      border-radius: 20px;    
+      width:60%; 
+      height: auto;
+}*/
+
+
+
+
+img#profilepic{
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+
+
+
+
+ 
 
 
 
