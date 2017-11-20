@@ -1,25 +1,40 @@
-  header {
 
-      text-align: center;
+/* this is the background cover*/
 
-      background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
+   .jumbotron {
+  min-height:200px;
 
-      background-size: cover;
+  background-image:url('./tank.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+} 
 
-      color: white;
+h1.jumbotron{
+padding: 0px 0px 0px 0px;
+align-self: left;
+}
 
-    }
-
+/* this is the image. probably want to switch with cstext-align: left;s */
 
  img.header_image{
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
-      border-radius: 20px;	  
-      width:250px; /* you can use % */
+      border-radius: 20px;	
+      width:250px; /* you can use % */  
       height: auto;
-      text-align: left;
+      
 }
 
+
+.navbar { margin-bottom: : 0 
+  margin-top: 0;}
+
+
+
+/* header class is the self made nav bar*/
 .headerclass a {
       color:white;
  }
@@ -63,12 +78,15 @@
 
 
 
-body {
+body .original {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 600px;
+ /* max-width: 600px;*/
   background: #232323;
 }
+
+
+
 
 div.first {
   height: 200px;
@@ -245,15 +263,3 @@ img#profilepic{
   height: 400px;
   float: right;
 }
-
-
-
-
-
- 
-
-
-
-
-
-
