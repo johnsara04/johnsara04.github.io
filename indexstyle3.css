@@ -7,6 +7,21 @@ body {
   color: #5a5a5a;
 }
 
+/* header class is the self made nav bar*/
+.headerclass a {
+      color:white;
+ }
+
+ .headerclass ul {
+      padding: 20px;
+      background:rgba(0,0,0,0.5);
+    }
+
+ .headerclass li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -17,7 +32,7 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 20;
+  z-index: 1;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -26,39 +41,55 @@ body {
   padding-left: 0;
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
 }
 
+.navbar-wrapper {
+    
+    width: 100%;
+    background-color: #000000;
+    height:52px;
+}
+
+.form-inline{
+  position:right;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+  height: auto;
+  margin-bottom: 10px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
+  z-index: 20;
+  text-align: right;
+
 }
 
 /* Declare heights because of positioning of img element */
-.carousel .item {
+/*.carousel .item {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+/*.carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 500px;
-}
+}*/
+
+
+
+
 
 
 /* MARKETING CONTENT
@@ -82,7 +113,12 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 30px 0 ; /* Space out the Bootstrap <hr> more */
+
+}
+.featurette-divider p {
+  margin-right: 30px  ; /* Space out the Bootstrap <hr> more */
+
 }
 
 /* Thin out the marketing headings */
@@ -92,6 +128,9 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette img {
+  
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -99,7 +138,7 @@ body {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .navbar-wrapper .container {
     padding-right: 15px;
@@ -123,7 +162,7 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 54px;
   }
 }
 
