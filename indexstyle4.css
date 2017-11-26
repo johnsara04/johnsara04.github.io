@@ -1,0 +1,34 @@
+  header {
+
+      text-align: center;
+
+      background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
+
+      background-size: cover;
+
+      color: white;
+
+    }
+
+     img.header_image{
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;	  
+      width:250px; /* you can use % */
+      height: auto;
+      text-align: left;
+}
+
+.headerclass a {
+      color:white;
+ }
+
+ .headerclass ul {
+      padding: 20px;
+      background:rgba(0,0,0,0.5);
+    }
+
+ .headerclass li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }

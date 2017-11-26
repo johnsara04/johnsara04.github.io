@@ -7,14 +7,39 @@ body {
   color: #5a5a5a;
 }
 
+  header {
+
+      text-align: center;
+
+      background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
+
+      background-size: cover;
+
+      color: white;
+
+    }
+
+
+
+
+
+
+
 /* header class is the self made nav bar*/
 .headerclass a {
       color:white;
+
  }
 
  .headerclass ul {
       padding: 20px;
-      background:rgba(0,0,0,0.5);
+      background:rgba(0,0,0,0.5); 
+
+
+
+
+
+      text-align: center;
     }
 
  .headerclass li {
@@ -23,13 +48,25 @@ body {
     }
 
 
+img.header_image{
+      padding-top: 10px;
+      margin: 40px 80px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;  
+      width:250px; /* you can use % */  
+      height: auto;
+      
+      
+}
+
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 0px;
   right: 0;
   left: 0;
   z-index: 1;
@@ -41,18 +78,57 @@ body {
   padding-left: 0;
 }
 .navbar-wrapper .navbar {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 2px;
+  padding-left: 2px;
 }
-.navbar-wrapper .navbar .container {
-  width: auto;
+
+
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
 }
+
+.navbar li { color: #000 } 
+
+
+
+
+
+.navbar .navbar-inverse .navbar-static-top{
+  width:100%;
+
+}
+
+
+
 
 .navbar-wrapper {
     
-    width: 100%;
-    background-color: #000000;
-    height:52px;
+   /* width: 100%;*/
+   /* background-color:rgba(0,0,0,0.5);
+    /*background-color: #000000;*/
+  height:50px;
+
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
+
+  
+  background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
+ /* padding: 10px;*/
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transition:height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+
+
 }
 
 .form-inline{
@@ -65,7 +141,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -108,6 +184,12 @@ body {
   margin-left: 10px;
 }
 
+.marketing img{
+   margin: 40px 0px 0px 0px;
+      border: 7px solid blue;
+      border-radius: 20px;  
+}
+
 
 /* Featurettes
 ------------------------- */
@@ -128,9 +210,33 @@ body {
   letter-spacing: -1px;
 }
 
-.featurette img {
-  
+.featurette-image img {
+   margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;  
+      width:250px; /* you can use % */  
+      height: auto;
+
 }
+
+
+/*Blog*/
+.blog-image{
+  padding: 10px;
+
+    width:100%; /* you can use % */
+    height: auto;
+}
+.figure {
+    padding: 15px;
+}
+
+.blog-header{
+  padding : 15px;
+}
+
+/* Centre the lower nav bar*/
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -154,12 +260,15 @@ body {
     border-radius: 4px;
   }
 
+
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
   }
+
+
 
   .featurette-heading {
     font-size: 54px;
