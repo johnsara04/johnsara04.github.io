@@ -7,38 +7,27 @@ body {
   color: #5a5a5a;
 }
 
-  header {
+header {
+  text-align: center;
+  background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
+  background-size: cover;
+  color: white;
+}
 
-      text-align: center;
-
-      background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
-
-      background-size: cover;
-
-      color: white;
-
-    }
-
-
+h1{
+  font-size: 44px;
+  margin-left:30px;
+}
 
 
-
-
-
-/* header class is the self made nav bar*/
+/* header class covers the self made nav bar*/
 .headerclass a {
       color:white;
-
  }
 
  .headerclass ul {
       padding: 20px;
-      background:rgba(0,0,0,0.5); 
-
-
-
-
-
+      background:#6b6b6b; 
       text-align: center;
     }
 
@@ -47,24 +36,18 @@ body {
       padding: 0px 10px 0px 10px;
     }
 
-
 img.header_image{
       margin: 80px 0px 0px 0px;
       position: center;
       border: 7px solid white;
       border-radius: 15px;  
       width:250px; /* you can use % */  
-      height: auto;
-   
-
-      
-      
+      height: auto;            
 }
 
 
-/* CUSTOMIZE THE NAVBAR
+/* Consistent NAVBAR
 -------------------------------------------------- */
-
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: relative;
@@ -73,7 +56,6 @@ img.header_image{
   left: 0;
   z-index: 1;
 }
-
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
@@ -84,42 +66,33 @@ img.header_image{
   padding-left: 2px;
 }
 
-
-
+/*Make the nav bar transparent*/
 .navbar {
    background-color: transparent;
    background: transparent;
    border-color: transparent;
    padding-bottom: 2px;
+   margin-left: 50px;
 }
 
 .navbar li { color: #000 } 
-
-
-
-
 
 .navbar .navbar-inverse .navbar-static-top{
   width:100%;
 
 }
 
-
-
-
+/* Instead the wrapper is given a transparent gradient*/
 .navbar-wrapper {
     
    /* width: 100%;*/
    /* background-color:rgba(0,0,0,0.5);
     /*background-color: #000000;*/
   height:50px;
-
   color: rgba(255,255,255,1);
   background: black;
   background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
   background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
-
-  
   background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
  /* padding: 10px;*/
   line-height: 28px;
@@ -127,20 +100,17 @@ img.header_image{
   position: absolute;
   bottom: 0;
   margin: 0;
-  transition:height .5s;
+
+  /*transition:height .5s;
   -webkit-transition: height .5s;
-  -moz-transition: height .5s;
-
-
+  -moz-transition: height .5s;*/
 }
 
 .form-inline{
   position:right;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
+/* THE CAROUSEL*/
 /* Carousel base class */
 .carousel {
   height: auto;
@@ -148,7 +118,7 @@ img.header_image{
   margin-top: 0px;
   padding-top: 2%;
 }
-/* Since positioning the image, we need to help out the caption */
+/* caption */
 .carousel-caption {
   z-index: 20;
   text-align: right;
@@ -169,45 +139,40 @@ img.header_image{
 }*/
 
 
-
-
-
-
-/* MARKETING CONTENT
+/* contact pictire
 -------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.contact .col-lg-12 {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
+.contact h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.contact .col-lg-12 p {
   margin-right: 10px;
   margin-left: 10px;
 }
-
-.marketing img{
+.contact img{
    margin: 40px 0px 0px 0px;
-      border: 7px solid blue;
-      border-radius: 20px;  
+   border: 7px solid #91bef4;
+   border-radius: 20px;  
 }
 
 
-/* Featurettes
+/* News Features
 ------------------------- */
-
 .featurette-divider {
-  margin: 30px 0 ; /* Space out the Bootstrap <hr> more */
+  margin: 30px 0px 30px 0px ; 
+}
+/*first feature has less space above it*/
+.featurette-divider-first {
+  margin: 0px 0px 30px 0px ; 
 
 }
-.featurette-divider p {
-  margin-right: 30px  ; /* Space out the Bootstrap <hr> more */
 
+.featurette-divider .featurette-divider-first p {
+  margin-right: 30px  ; 
 }
-
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
@@ -223,31 +188,43 @@ img.header_image{
       height: auto;
 
 }
+.featurette-heading {
+    font-size: 44px;
+  }
+
+iframe{
+  text-align:center;
+  position: center;
+}
 
 
 /*Blog*/
 .blog-image{
-  padding: 10px;
-
+    padding: 10px;
     width:100%; /* you can use % */
     height: auto;
 }
 .figure {
     padding: 15px;
 }
-
 .blog-header{
   padding : 15px;
 }
 
-/* Centre the lower nav bar*/
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+/* change dropdown background when viewing on small screens*/
 
+@media (max-width: 768px){
+.navbar-collapse { background:#3d424d;}
+}
+}
+
+
+/* change for larger screens*/
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
+  /* Navbar positioning*/
   .navbar-wrapper {
     margin-top: 0px;
   }
@@ -259,27 +236,20 @@ img.header_image{
     padding-right: 0;
     padding-left: 0;
   }
-
-  /* The navbar becomes detached from the top, so we round the corners */
+  /* round the corners of nav bar */
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
+/* Carousel */
 
-  /* Bump up size of carousel content */
+/* make writing larger on smaller screens*/
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
   }
-
-
-
-  .featurette-heading {
-    font-size: 54px;
-  }
-}
-
+/* On really wide screens space out the margins more */
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
