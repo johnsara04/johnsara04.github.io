@@ -218,7 +218,11 @@ iframe{
 
 @media (max-width: 768px){
 .navbar-collapse { background:#3d424d;}
+
+.navbar {
+font-size: 20px;
 }
+
 }
 
 
