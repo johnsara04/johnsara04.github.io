@@ -105,23 +105,26 @@
       <img src="./horse.jpg" alt="..."></a>
       <div class="caption">
         <h3>Gallery 1</h3>
-        <p>Some preview text about this </p>
+        <p>New figures to sell, click here<span class="price">$500</span><br/>
+        <small>Some strange alien thing with details about this and special offers</small></p>
         <p><a href="#" class="btn btn-default" role="button">View</a></p>
       </div>
     </div>
   </div>
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 ">
     <div class="thumbnail">
 	  <a target="_blank" href = "./chaos_warrior.jpg">
       <img src="./chaos_warrior.jpg" alt="..."></a>
       <div class="caption">
         <h3>Chaos Warrior</h3>
-        <p>Chaos Warrior from 50k theme</p>
+        <p>New figures to sell, click here<span class="price">$500</span><br/>
+        <small>Some strange alien thing with details about this and special offers</small></p>
         <p><a href="#" class="btn btn-default" role="button">View</a></p>
       </div>
     </div>
   </div>
+
 
 <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -129,7 +132,8 @@
       <img src="./wings.jpg" alt="..."></a>
       <div class="caption">
         <h3>Thumbnail label</h3>
-        <p>The painting is really cool here anyway</p>
+        <p>New figures to sell, click here<span class="price">£500</span><br/>
+        <small>Some strange alien thing with details about this and special offers</small></p>
         <p><a href="#" class="btn btn-default" role="button">View</a></p>
       </div>
     </div>
@@ -192,6 +196,11 @@
 
 
 <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"><\/script>')</script>
+<script>
+$('div').on('click',function() {
+$(this).toggleClass('show-description');
+});
+</script>
 
 <!--<script>window.jQuery || document.write('./jquery-3.2.1.min.js"><\/script>')</script>-->
     <script src="./bootstrap/js/bootstrap.min.js"></script>
