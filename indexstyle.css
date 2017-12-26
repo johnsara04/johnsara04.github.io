@@ -116,7 +116,15 @@ img.header_image{
   height: auto;
   margin-bottom: 0px;
   margin-top: 0px;
-  padding-top: 5%;
+  padding-top: 8%;
+}
+
+@media (max-width: 500px){
+.carousel {
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 11%;
 }
 
 }
