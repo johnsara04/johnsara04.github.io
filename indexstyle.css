@@ -119,13 +119,15 @@ img.header_image{
   padding-top: 8%;
 }
 
-@media (max-width: 500px){
+@media (max-width: 750px){
 .carousel {
   height: auto;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 11%;
 }
+
+
 
 }
 
