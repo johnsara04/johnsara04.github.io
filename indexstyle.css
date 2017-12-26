@@ -1,32 +1,34 @@
-  header {
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
-      text-align: center;
-
-      background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
-
-      background-size: cover;
-
-      color: white;
-
-    }
-
-
- img.header_image{
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;	  
-      width:250px; /* you can use % */
-      height: auto;
-      text-align: left;
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
 }
 
+header {
+  text-align: center;
+  background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
+  background-size: cover;
+  color: white;
+}
+
+h1{
+  font-size: 44px;
+  margin-left:30px;
+}
+
+
+/* header class covers the self made nav bar*/
 .headerclass a {
       color:white;
  }
 
  .headerclass ul {
       padding: 20px;
-      background:rgba(0,0,0,0.5);
+      background:#6b6b6b; 
+      text-align: center;
     }
 
  .headerclass li {
@@ -34,83 +36,232 @@
       padding: 0px 10px 0px 10px;
     }
 
- .bottomofpage ul {
-      position: bottom;
-      list-style-type: none;
-      padding: 20px;
-      overflow:hidden;
-      background:rgba(0,0,0,0.5);
-    }
-
-
- .bottomofpage li {
-  display: inline;
-  padding: 10px 10px 0px 10px;
-    }
-
-   .bottomofpage li a{
-    display:inline-block;
-    color:grey;
-    text-align: center;
-    padding:5px 5px;
-    text-decoration: none;
-    }
-
-    .bottomofpage li a:hover{
-      background-color: #111;
-    }
-
-
-
-
-body {
-  font-family: helvetica, sans-serif;
-  margin: 0 auto;
-  max-width: 90%;
-  background: #232323;
+img.header_image{
+      margin: 60px 0px 0px 0px;
+      position: center;
+      border: 7px solid white;
+      border-radius: 15px;  
+      width:250px; /* you can use % */  
+      height: auto;            
 }
 
-div.first {
-  height: 200px;
-  background-size: cover;
+
+/* Consistent NAVBAR
+-------------------------------------------------- */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
   position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
+  top: 0px;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 2px;
+  padding-left: 2px;
 }
 
-div.second {
-  height: 200px;
-  background-size: cover;
-  position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
-}
-div.third {
-  height: 200px;
-  background-size: cover;
-  position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
+/*Make the nav bar transparent*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   padding-bottom: 2px;
+   margin-left: 0px;
 }
 
-h1 {
-  font-family: 'Roboto Condensed', sans-serif;;
+.navbar li { color: #000 } 
+
+.navbar .navbar-inverse .navbar-static-top{
+  width:100%;
+
+}
+
+/* Instead the wrapper is given a transparent gradient*/
+.navbar-wrapper {
+  height:50px;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
+  background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5));
+ /* padding: 10px;*/
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.form-inline{
+  position:right;
+}
+
+/* THE CAROUSEL*/
+/* Carousel base class */
+.carousel {
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 2%;
+}
+/* and on small screens increase the padding*/
+@media (max-width: 768px){
+.carousel {
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5%;
+}
+
+}
+
+
+
+
+/* caption */
+.carousel-caption {
+  z-index: 20;
+  text-align: right;
+
+}
+
+
+/* contact pictire
+-------------------------------------------------- */
+.contact .col-lg-12 {
+  margin-bottom: 20px;
   text-align: center;
-  font-size: 75px;
-  color: #aaaaaa;
-  margin: 60px 0 0 0;
 }
-h2 {
-  text-align: center;
-  color: #bbbbbb;
-  margin: 0px 0 70px 0;
+.contact h2 {
+  font-weight: normal;
 }
-h3 {
-  text-align: left;
-  color: #bbbbbb;
-  margin: 50px 0 50px 0;
+.contact .col-lg-12 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contact img{
+   margin: 40px 0px 0px 0px;
+   border: 7px solid #91bef4;
+   border-radius: 20px;  
 }
 
+
+/* News Features
+------------------------- */
+.featurette-divider {
+  margin: 30px 0px 30px 0px ; 
+}
+/*first feature has less space above it*/
+.featurette-divider-first {
+  margin: 0px 0px 30px 0px ; 
+}
+.featurette-divider .featurette-divider-first p {
+  margin-right: 30px  ; 
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-image img {
+   margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;  
+      width:250px; /* you can use % */  
+      height: auto;
+
+}
+.featurette-heading {
+    font-size: 44px;
+  }
+
+iframe{
+  text-align:center;
+  position: center;
+}
+
+
+/*Blog*/
+.blog-image{
+    padding: 10px;
+    width:100%; /* you can use % */
+    height: auto;
+}
+.figure {
+    padding: 15px;
+}
+.blog-header{
+  padding : 15px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* change dropdown background when viewing on small screens*/
+
+/* Still a viewing problem on mobile to be corrected*/
+
+@media (max-width: 768px){
+.navbar-collapse { background:#3d424d;}
+
+.navbar {
+font-size: 20px;
+}
+
+}
+
+
+/* change for larger screens*/
+@media (min-width: 768px) {
+  /* Navbar positioning*/
+  .navbar-wrapper {
+    margin-top: 0px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* round the corners of nav bar */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+/* Carousel */
+
+/* make writing larger on smaller screens*/
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+/* On really wide screens space out the margins more */
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+/* Media for the gallery main */
+.show-description p {
+height: 150px;
+}
+
+.show-description small {
+opacity: 1;
+}
 .first p , .second p , .third p{
   color: rgba(255,255,255,1);
   background: black;
@@ -122,7 +273,7 @@ h3 {
   padding: 10px;
   line-height: 28px;
   text-align: justify;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   margin: 0;
   transition:height .5s;
@@ -130,130 +281,89 @@ h3 {
   -moz-transition: height .5s;
 }
 
+.gallery_main div.first1 {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
 
-div.first{
+.gallery_main h1 {
+  font-family: 'Roboto Condensed', sans-serif;;
+  text-align: center;
+  font-size: 75px;
+  color: #3d424d;
+  margin: 0px 0px 0px 0;
+  padding-top:60px;
+}
+.gallery_main h2 {
+  text-align: center;
+  color: #3d424d;
+  margin: 0px 0 70px 0;
+}
+
+.gallery_main p {
+  text-align: center;
+}
+
+div.first1{
   background-image: url("https://c1.staticflickr.com/5/4512/36805034144_961b5a6c03_k.jpg");
 }
-div.second{
-  background-image: url("https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg");
-}
-div.third{
-  background-image: url("https://c1.staticflickr.com/5/4464/37682354842_a1c6269694_h.jpg");
-}
+
 .price {
   float: right;
 }
-small{
+.gallery_main small{
   opacity: 0;}
-  
-.show-description p {
-height: 150px;
-}
-
-.show-description small {
-opacity: 1;
-}
 
 @media (max-width: 800px){
-h1{
+.gallery_main h1{
 font-size: 50px;
 margin-top: 20px;
 line-height: 40px;
 }
-h2{
+.gallery_main h2{
   font-size: 20px;
   margin: 20px 0 30px 0;
 }
-div{
+.gallery_main div{
 margin: 20px 12px 0 12px;
+}}
+
+/* Styles for gallery 1+ */
+
+
+.gallery_1 h1 {
+  font-family: 'Roboto Condensed', sans-serif;;
+  text-align: center;
+  font-size: 75px;
+  color: #3d424d;
+  margin: 0px 0px 0px 0;
+  padding-top:60px;
+}
+.gallery_1 h2 {
+  text-align: center;
+  color: #3d424d;
+  margin: 0px 0 70px 0;
 }
 
-p{
-font-size: 20px;
-line-height: 24px;
-}
-small{
-  font-size: 16px;
-  }
-
-}
-
-
-
-
-/*img.twoimage #imgone{
-
-  position:absolute;
-  right:0px;
-  width: 300px;
-  border:3px solid #73AD21;
-}
-
-img.twoimage #imgtwo{
-
-  position:absolute;
-  left:0px;
-  width: 300px;
-  border:3px solid #73AD21;
-  
-}*/
-
-/*
-.threeimages .image3 img{
- float:left;
- width:30%;
- border:3px solid #73AD21;
- padding:10px; 
-}*/
-
-
-div.galleryindex{
-  margin: 5px;
-  border:1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-div.galleryindex:hover{
-  border:1px solid #777;
-}
-div.galleryindex img {
-  width:100%;
-  height:auto;
- /* instead of a separate class for the image you can put it here
-  border: 7px solid white;
-  border-radius: 20px;   */ 
-}
-div.desc{
-  padding: 15px;
+.gallery_1 p {
   text-align: center;
 }
 
-
-/*img.gallerychild{}
-      margin: auto;
-      border: 7px solid white;
-      border-radius: 20px;    
-      width:60%; 
-      height: auto;
-}*/
-
-
-
-
-img#profilepic{
-  width: 400px;
-  height: 400px;
+/* Styles for gallery 1+ */
+.gallery_1 .price {
   float: right;
 }
 
+.gallery_1 small{
+  opacity: 0;}
 
 
 
 
- 
 
-
-
-
+}
 
 
