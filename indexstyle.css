@@ -14,6 +14,13 @@ header {
   color: white;
 }
 
+header.index {
+  text-align: center;
+  background: url('./blue.jpg');
+  background-size: cover;
+  color: white;
+}
+
 h1{
   font-size: 44px;
   margin-left:30px;
@@ -117,6 +124,8 @@ img.header_image{
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 8%;
+
+}
 }
 
 @media (max-width: 750px){
@@ -124,8 +133,13 @@ img.header_image{
   height: auto;
   margin-bottom: 0px;
   margin-top: 0px;
-  padding-top: 11%;
+  padding-top: 12%;
+
 }
+}
+
+
+
 
 
 
