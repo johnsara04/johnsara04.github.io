@@ -123,19 +123,11 @@ img.header_image{
 .carousel {
   height: auto;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 5px;
   padding-top: 8%;
-
 }
-}
-
-@media (max-width: 750px){
-.carousel {
-  height: auto;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 12%;
-
+.navbar-wrapper{
+  padding-bottom: 10;
 }
 }
 
@@ -144,7 +136,6 @@ img.header_image{
 
 
 
-}
 
 
 
