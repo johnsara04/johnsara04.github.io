@@ -259,8 +259,13 @@ font-size: 20px;
   }
 .carousel-caption h1 {
 margin-top: 15px;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.0;
+}
+
+.contact img {
+  width:270px 
+  height=q80px
 }
 
 
