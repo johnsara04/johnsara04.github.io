@@ -170,10 +170,12 @@ img.header_image{
   margin-left: 10px;
 }
 .contact img{
-   margin: 40px 0px 0px 0px;
+   /*margin: 40px 0px 0px 0px;*/
    border: 7px solid #91bef4;
-   border-radius: 20px;  
+   border-radius: 20px;    
+   margin: auto
 }
+
 
 
 /* News Features
@@ -263,10 +265,7 @@ margin-top: 15px;
     line-height: 1.0;
 }
 
-.contact img {
-  width:270px 
-  height=180px
-}
+
 
 
 
