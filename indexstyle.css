@@ -252,6 +252,18 @@ iframe{
 .navbar {
 font-size: 20px;
 }
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+.carousel-caption h1 {
+margin-top: 15px;
+    font-size: 28px;
+    line-height: 1.0;
+}
+
+
 
 }
 
