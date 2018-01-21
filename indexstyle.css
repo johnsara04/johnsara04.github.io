@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+    /*background-color: #777979;*/
 }
 
 header {
@@ -163,7 +164,7 @@ img.header_image{
 }
 .contact img{
    /*margin: 40px 0px 0px 0px;*/
-   border: 7px solid #91bef4;
+   border: 7px solid #FBFFFF ;/*#777979;/*#91bef4;*/
    border-radius: 20px;    
    margin: auto
 }
@@ -172,12 +173,14 @@ img.header_image{
 
 /* News Features
 ------------------------- */
+
+
 .featurette-divider {
   margin: 30px 0px 30px 0px ; 
 }
 /*first feature has less space above it*/
 .featurette-divider-first {
-  margin: 0px 0px 30px 0px ; 
+  margin: 0px 0px 40px 0px ; 
 }
 .featurette-divider .featurette-divider-first p {
   margin-right: 30px  ; 
@@ -187,14 +190,20 @@ img.header_image{
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+padding-top: -20px;
+
 }
 
 .featurette-image img {
-   margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;  
-      width:250px; /* you can use % */  
-      height: auto;
+  /* margin: 40px 0px 0px 0px;*/
+  border: 7px solid white;
+ border-radius: 0px;
+width: 95% ;/*250px; /* you can use % */  
+height: auto;
+padding-top:50px;
+      
+
+}
 
 }
 .featurette-heading {
@@ -204,7 +213,8 @@ img.header_image{
 iframe{
   text-align:center;
   position: center;
-  padding-top:30px;
+  padding-top:0px;
+  padding-left: 20px;
 }
 
 
@@ -256,6 +266,14 @@ margin-top: 15px;
     font-size: 22px;
     line-height: 1.0;
 }
+
+iframe{
+  text-align:center;
+  position: center;
+  padding-top:20px;
+  padding-left: 0px;
+}
+
 
 
 
