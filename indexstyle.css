@@ -279,10 +279,17 @@ iframe{
 /* and on small screens increase the padding Landscape phoenes and portrati tablets*/
 @media (max-width: 767px){
 .carousel {
+
   height: auto;
   margin-bottom: 0px;
+  padding-top: 1%;
+
+
+
+ /* height: auto;
+  margin-bottom: 0px;
   margin-top: 0px;
-  padding-top: 0%;
+  padding-top: 0%;*/
 }
 .navbar-wrapper{
   padding-bottom: 2%;
