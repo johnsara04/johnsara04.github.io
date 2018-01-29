@@ -83,6 +83,7 @@ img.header_image{
    border-color: transparent;
    padding-bottom: 2px;
    margin-left: 0px;
+   position: fixed;
 }
 
 .navbar li { color: #000 } 
