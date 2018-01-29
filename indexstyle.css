@@ -46,12 +46,13 @@ h1{
     }
 
 img.header_image{
-      margin: 0px 0px 0px 0px;
+      margin: 10px 0px 0px 0px;
       position: center;
       border: 7px solid white;
       border-radius: 15px;  
       width:250px; /* you can use % */  
-      height: auto;            
+      height: auto;     
+
 }
 
 
