@@ -244,20 +244,13 @@ iframe{
 /* and on small screens increase the padding Landscape phoenes and portrati tablets*/
 @media (max-width: 767px){
 .carousel {
-
   height: auto;
   margin-bottom: 0px;
   padding-top: 2%;
-
- /* height: auto;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 0%;*/
 }
 .navbar-wrapper{
   padding-bottom: 2%;
 }
-
 .navbar-collapse { background:#3d424d;}
 
 .navbar {
@@ -280,47 +273,10 @@ iframe{
   padding-top:20px;
   padding-left: 0px;
 }
-
 }
-
-
-@media (min-width: 768px){
-.carousel {
-
-  height: auto;
-  margin-bottom: 0px;
-  padding-top: 2%;
-
- /* height: auto;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 0%;*/
-}
-.navbar-wrapper{
-  padding-bottom: 2%;
-}
-
-.navbar-collapse { background:#3d424d;}
-
-.navbar {
-font-size: 16px;
-}
-.carousel-caption p {
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 1.0;
-  }
-.carousel-caption h1 {
-margin-top: 15px;
-    font-size: 22px;
-    line-height: 1.0;
-}
-
-
-
 
 /* change for larger screens Portrait tablets and small desktops*/
-@media (min-width: 768px) {
+@media (min-width: 768px ) {
   /* Navbar positioning*/
   .navbar-wrapper {
     margin-top: 0px;
@@ -350,13 +306,18 @@ margin-top: 15px;
 }
 
 /* Carousel */
-
 /* make writing larger on smaller screens*/
   .carousel-caption p {
     margin-bottom: 20px;
-    font-size: 21px;
+    font-size: 24px;
     line-height: 1.4;
   }
+
+
+
+
+
+
 /* On really wide screens space out the margins more Landscape tablets and medium desktops*/
 @media (min-width: 992px) {
   .featurette-heading {
