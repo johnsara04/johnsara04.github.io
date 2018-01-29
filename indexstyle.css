@@ -13,7 +13,6 @@ header {
   background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
   background-size: cover;
   color: white;
-  margin-top: 50px;
 }
 
 header.index {
@@ -21,6 +20,7 @@ header.index {
   background: url('./blue.jpg');
   background-size: cover;
   color: white;
+  /*position: absolute;*/
 }
 
 h1{
@@ -46,7 +46,7 @@ h1{
     }
 
 img.header_image{
-      margin: 60px 0px 0px 0px;
+      margin: 50px 0px 0px 0px;
       position: center;
       border: 7px solid white;
       border-radius: 15px;  
@@ -59,7 +59,7 @@ img.header_image{
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: relative;
+ position: relative;
   top: 0px;
   right: 0;
   left: 0;
@@ -84,7 +84,8 @@ img.header_image{
    border-color: transparent;
    padding-bottom: 2px;
    margin-left: 0px;
-   position: fixed;
+  position: absolute;
+
 }
 
 .navbar li { color: #000 } 
@@ -94,8 +95,10 @@ img.header_image{
 
 }
 
+
 /* Instead the wrapper is given a transparent gradient*/
 .navbar-wrapper {
+  position: relative;
   height:50px;
   color: rgba(255,255,255,1);
   background: black;
@@ -105,9 +108,9 @@ img.header_image{
  /* padding: 10px;*/
   line-height: 28px;
   text-align: justify;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
+  /*position: absolute;*/
+ /* bottom: 0;
+  margin: 0;*/
 }
 
 .form-inline{
@@ -115,13 +118,12 @@ img.header_image{
 }
 
 /* THE CAROUSEL*/
-/* Carousel base class */
+/* Carousel base class margin-top: 50px;*/
 .carousel {
   height: auto;
   margin-bottom: 0px;
-
   padding-top: 2%;
-  position: 
+
 }
 /* and on small screens increase the padding*/
 @media (max-width: 768px){
