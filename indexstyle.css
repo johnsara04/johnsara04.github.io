@@ -246,7 +246,7 @@ iframe{
   padding-top: 10%;
 }
 .navbar-wrapper{
-  padding-bottom: 2%;
+  padding-bottom: 5%;
 }
 
 .navbar-collapse { background:#3d424d;}
@@ -271,6 +271,7 @@ header.index {
   background: url('./blue.jpg');
   background-size: cover;
   color: white;}
+
   /*position: absolute;*/
 
 iframe{
