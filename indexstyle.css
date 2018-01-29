@@ -265,6 +265,14 @@ margin-top: 15px;
     line-height: 1.0;
 }
 
+
+header.index {
+  text-align: center;
+  background: url('./blue.jpg');
+  background-size: cover;
+  color: white;}
+  /*position: absolute;*/
+
 iframe{
   text-align:center;
   position: center;
