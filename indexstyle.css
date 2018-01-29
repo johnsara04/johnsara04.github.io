@@ -261,16 +261,16 @@ iframe{
 .navbar-collapse { background:#3d424d;}
 
 .navbar {
-font-size: 16px;
+font-size: 14px;
 }
 .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 1.4;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.0;
   }
 .carousel-caption h1 {
 margin-top: 15px;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.0;
 }
 
