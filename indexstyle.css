@@ -125,27 +125,6 @@ img.header_image{
   padding-top: 1%;
 
 }
-/* and on small screens increase the padding*/
-@media (max-width: 768px){
-.carousel {
-  height: auto;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 0%;
-}
-.navbar-wrapper{
-  padding-bottom: 2%;
-}
-}
-
-
-
-
-
-
-
-
-
 
 /* caption */
 .carousel-caption {
@@ -256,7 +235,19 @@ iframe{
 
 /* Still a viewing problem on mobile to be corrected*/
 
+
+/* and on small screens increase the padding*/
 @media (max-width: 768px){
+.carousel {
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0%;
+}
+.navbar-wrapper{
+  padding-bottom: 2%;
+}
+
 .navbar-collapse { background:#3d424d;}
 
 .navbar {
@@ -280,11 +271,6 @@ iframe{
   padding-left: 0px;
 }
 
-
-
-
-
-
 }
 
 
@@ -306,6 +292,17 @@ iframe{
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
+
+/* addition*/
+  .carousel {
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0%;
+}
+.navbar-wrapper{
+  padding-bottom: 2%;
+}
 
 /* Carousel */
 
