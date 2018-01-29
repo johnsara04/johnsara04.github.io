@@ -237,55 +237,7 @@ iframe{
 
 
 
-/* Portrait phones*/
-@media (max-width: 480px){
-.carousel {
-  height: auto;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 5%;
-  z-index: 10;
-}
-.navbar-wrapper{
-  padding-bottom: 5%;
-}
 
- 
-
-
-.navbar-collapse { background:#3d424d;}
-
-.navbar {
-font-size: 10px;
-}
-.carousel-caption p {
-    margin-bottom: 2px;
-    font-size: 10px;
-    line-height: 0.7;
-  }
-.carousel-caption h1 {
-margin-top: 50px;
-    font-size: 12px;
-    line-height: 0.7;
-}
-
-
-header.index {
-  text-align: center;
-  background: url('./blue.jpg');
-  background-size: cover;
-  color: white;}
-
-  /*position: absolute;*/
-
-iframe{
-  text-align:center;
-  position: center;
-  padding-top:20px;
-  padding-left: 0px;
-}
-
-}
 
 
 
