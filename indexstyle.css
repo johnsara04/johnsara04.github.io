@@ -236,8 +236,48 @@ iframe{
 /* Still a viewing problem on mobile to be corrected*/
 
 
-/* and on small screens increase the padding*/
-@media (max-width: 768px){
+
+/* Portrait phones*/
+@media (max-width: 480px){
+.carousel {
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 2%;
+}
+.navbar-wrapper{
+  padding-bottom: 2%;
+}
+
+.navbar-collapse { background:#3d424d;}
+
+.navbar {
+font-size: 20px;
+}
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+.carousel-caption h1 {
+margin-top: 15px;
+    font-size: 22px;
+    line-height: 1.0;
+}
+
+iframe{
+  text-align:center;
+  position: center;
+  padding-top:20px;
+  padding-left: 0px;
+}
+
+}
+
+
+
+/* and on small screens increase the padding Landscape phoenes and portrati tablets*/
+@media (max-width: 767px){
 .carousel {
   height: auto;
   margin-bottom: 0px;
@@ -274,7 +314,7 @@ iframe{
 }
 
 
-/* change for larger screens*/
+/* change for larger screens Portrait tablets and small desktops*/
 @media (min-width: 768px) {
   /* Navbar positioning*/
   .navbar-wrapper {
@@ -312,11 +352,12 @@ iframe{
     font-size: 21px;
     line-height: 1.4;
   }
-/* On really wide screens space out the margins more */
+/* On really wide screens space out the margins more Landscape tablets and medium desktops*/
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
   }
+
 }
 
 
