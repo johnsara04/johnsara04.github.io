@@ -13,6 +13,7 @@ header {
   background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
   background-size: cover;
   color: white;
+  margin-top: 50px;
 }
 
 header.index {
@@ -118,8 +119,9 @@ img.header_image{
 .carousel {
   height: auto;
   margin-bottom: 0px;
-  margin-top: 0px;
+
   padding-top: 2%;
+  position: 
 }
 /* and on small screens increase the padding*/
 @media (max-width: 768px){
