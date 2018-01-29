@@ -208,10 +208,21 @@ iframe{
 
 /*Blog*/
 .blog-image{
-    padding: 10px;
+    padding: 15px;
     width:100%; /* you can use % */
     height: auto;
+    border: 7px solid white;
 }
+
+.blog-image-small{
+    padding: 10px 5px 10px 5px;
+
+    width:100%; /* you can use % */
+    height: auto;
+    border: 7px solid white;
+}
+
+
 .figure {
     padding: 15px;
 }
