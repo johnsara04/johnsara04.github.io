@@ -10,10 +10,12 @@ body {
 
 header {
   text-align: center;
-  background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
+  background: url('./stars.jpg'); /*url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg')*/;
   background-size: cover;
   color: white;
 }
+
+
 
 header.index {
   text-align: center;
@@ -47,7 +49,7 @@ h1{
     }
 
 img.header_image{
-      margin: 10px 0px 0px 0px;
+      margin: 15px 0px 0px 0px;
       position: center;
       border: 7px solid white;
       border-radius: 15px;  
