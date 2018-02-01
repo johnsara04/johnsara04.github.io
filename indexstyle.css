@@ -209,7 +209,7 @@ iframe{
 
 /*Blog*/
 .blog-image{
-    padding: 15px;
+    padding: 20px 15px 20px 15px;
     width:100%; /* you can use % */
     height: auto;
     border: 7px solid white;
