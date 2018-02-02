@@ -167,6 +167,11 @@ img.header_image{
 .featurette-divider {
   margin: 30px 0px 30px 0px ; 
 }
+
+.features {
+   margin: 30px 20px 30px 20px ;  
+}
+
 /*first feature has less space above it*/
 .featurette-divider-first {
   margin: 0px 0px 40px 0px ; 
@@ -209,8 +214,8 @@ iframe{
   padding-top:10px;
   padding-bottom:10px;
   /*padding:auto;*/
-  /*display:block;*/
-  /*text-align: center;*/
+  /*display:block;
+  *text-align: center;*/
   margin: auto;
 
 
