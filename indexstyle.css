@@ -176,12 +176,20 @@ img.header_image{
 }
 /* Thin out the marketing headings */
 .featurette-heading {
+  color:white;/*rgb(240, 240, 240);*/
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
-padding-top: -20px;
-
+margin-top: 20px;
+font-size: 35px;
+    padding-bottom:10px;
 }
+
+.featurette-heading .text-muted h2 {
+  padding: 20px;
+  margin-top:20px;
+    color:white;
+  }
 
 .featurette-image img {
   /* margin: 40px 0px 0px 0px;*/
@@ -194,16 +202,16 @@ padding-top:50px;
 
 }
 
-}
-.featurette-heading {
-    font-size: 44px;
-  }
 
 iframe{
   text-align:center;
-  position: center;
+  /*position: center;*/
   padding-top:10px;
-  padding:auto;
+  padding-bottom:10px;
+  /*padding:auto;*/
+  /*display:block;*/
+  /*text-align: center;*/
+  margin: auto;
 
 
 }
@@ -245,6 +253,53 @@ iframe{
 }
 .blog-post p{
   padding:0px 20px 0px 20px;
+}
+
+.featuretest{
+    background-image: url('./gallery_main_images/lizardmen.jpg');
+    background-repeat: no-repeat;
+    background-position: 15% 35%;
+    background-clip: padding-box;
+    background-size: 150%;
+    padding: 7.5%;/*73px;*/
+    margin-top:10px;
+    text-align: center;
+}
+
+.featuretest h2{
+
+margin-bottom:0px;
+margin-right:10px;
+margin-top:10px;
+ position: relative;
+    top: -40px; /* This will move it 20px up */
+    left: 10px; /* This will move it 20px to the right */
+  
+background:rgba(143, 181, 200,.5);
+ /* background: linear-gradient(top, rgba(143, 181, 200,1), rgba(143, 181, 200,.5));
+  background: -webkit-linear-gradient(top, rgba(143, 181, 200,1), rgba(143, 181, 200,.5));
+  background: -moz-linear-gradient(top, rgba(143, 181, 200,1), rgba(143, 181, 200,.5));*/
+
+}
+
+.featuretest p{
+margin-bottom:0px;
+margin-top:0px;
+margin-right:10px;
+margin-left:0px;
+padding-right:10px;
+ position: relative;
+    top: -40px; /* This will move it 20px up */
+    left: 10px; /* This will move it 20px to the right */
+    background-color: green; 
+      color:white;
+}
+
+.view p{
+ position: relative;
+ /* This will move it 20px up */
+right: 10px; /* This will move it 20px to the right */
+background-color: green; 
 }
 
 
@@ -289,10 +344,16 @@ margin-top: 15px;
 
 iframe{
   text-align:center;
-  position: center;
- padding-top: 10px;
- padding:auto;
+ /* position: center;*/
+ padding-top: 7%;/*10px;*/
+   padding-bottom:10px;
+  /* padding:auto;*/
+display:block;
+ /*text-align: center;*/
+ margin: auto;
 }
+
+
 }
 
 /* change for larger screens Portrait tablets and small desktops*/
@@ -333,6 +394,18 @@ iframe{
     line-height: 1.4;
   }
 
+iframe{
+  text-align:center;
+ /* position: center;*/
+ padding-top: 10px;
+   padding-bottom:10px;
+  /* padding:auto;*/
+
+ /*text-align: center;*/
+ margin: auto;
+}
+
+}
 
 
 
@@ -482,6 +555,6 @@ margin: 20px 12px 0 12px;
 
 
 
-}
+
 
 
