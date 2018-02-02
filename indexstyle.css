@@ -9,8 +9,8 @@ body {
 }
 
 header {
-  text-align: center;
-  background: url('./stars.jpg'); /*url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg')*/;
+  text-align: center;  /*url('./stars.jpg'); */
+  background: url('https://c1.staticflickr.com/5/4479/26174797999_69e94eb84f_k.jpg');
   background-size: cover;
   color: white;
 }
@@ -49,7 +49,7 @@ h1{
     }
 
 img.header_image{
-      margin: 15px 0px 0px 0px;
+      margin: 20px 0px 0px 0px;
       position: center;
       border: 7px solid white;
       border-radius: 15px;  
@@ -453,6 +453,31 @@ margin: 20px 12px 0 12px;
 .gallery_1 small{
   opacity: 0;}
 
+
+
+/* Just trying to fix one side */
+.outer {
+    border:solid 1px #000;
+    height:200px;
+}
+
+.leftcol {
+  /* position: fixed;
+   top: 0%;
+   left: 0%; */
+   border:solid 1px green;
+   overflow:hidden;
+}
+
+.rightcol {
+   /* border:solid 1px red;
+   position: relative;
+   top: 0%;
+   left: 50%;  */
+   border:solid 1px red; 
+   overflow-y: scroll;
+   height: 200px;
+}
 
 
 
