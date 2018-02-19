@@ -262,9 +262,9 @@ iframe{
 }
 
 .featuretest{
-    background-image: url('./gallery_main_images/lizardmen.jpg');
+    background-image: url('./gallery_main_images/dark4.jpg');
     background-repeat: no-repeat;
-    background-position: 15% 35%;
+    background-position: 55% 25%;
     background-clip: padding-box;
     background-size: 150%;
     padding: 7.5%;/*73px;*/
