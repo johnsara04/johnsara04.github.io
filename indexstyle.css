@@ -127,12 +127,8 @@ img.header_image{
 /* Carousel base class margin-top: 50px;*/
 .carousel {
   height: auto;
-  /**margin-bottom: 0px;**/
+  margin-bottom: 0px;
   padding-top: 1%;
-
-}
-.carousel-inner .img{
-  margin: auto;
 
 }
 
