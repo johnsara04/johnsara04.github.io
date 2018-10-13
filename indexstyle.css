@@ -268,11 +268,11 @@ iframe{
 }
 
 .featuretest{
-    background-image: url('./gallery_main_images/blogjulyb_16.png');
+    background-image: url('./index_images/back.jpg');
     background-repeat: no-repeat;
     background-position: 55% 25%;
     background-clip: padding-box;
-    background-size: 150%;
+    background-size: 110%;
     padding: 7.5%;/*73px;*/
     margin-top:10px;
     text-align: center;
