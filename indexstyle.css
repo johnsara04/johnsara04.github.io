@@ -268,11 +268,11 @@ iframe{
 }
 
 .featuretest{
-    background-image: url('./index_images/back.jpg');
+    background-image: url('./index_images/soviet.jpg');
     background-repeat: no-repeat;
-    background-position: 55% 25%;
+    background-position: 55% 20%;
     background-clip: padding-box;
-    background-size: 110%;
+    background-size: 115%;
     padding: 7.5%;/*73px;*/
     margin-top:10px;
     text-align: center;
