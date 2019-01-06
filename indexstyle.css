@@ -235,6 +235,8 @@ iframe{
     width:100%; /* you can use % */
     height: auto;
     border: 7px solid white;
+    margin-left:auto;
+     margin-right: auto;
 }
 
 .blog-image-small{
@@ -243,11 +245,17 @@ iframe{
     width:100%; /* you can use % */
     height: auto;
     border: 7px solid white;
+margin-left:auto;
+     margin-right: auto;
+
+
 }
 
 
 .figure {
     padding: 15px;
+    margin-left:auto;
+     margin-right: auto;
 }
 .blog-header{
   padding : 15px;
