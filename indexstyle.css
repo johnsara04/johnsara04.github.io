@@ -16,8 +16,26 @@ header {
   color: white;
 }
 
+blockquote {
+  margin:auto;
+  width: auto;
+  display:table
+}
 
 
+blockquote:before {
+  position: absolute;
+  content: open-quote;
+  font-size: 4em;
+  margin-left: -0.6em;
+  margin-top: -0.4em;
+}
+   blockquote:after {
+        content: close-quote;
+        font-size: 4em;
+        margin-right: 0em;
+        margin-bottom: 0em;
+    }
 
 header.index {
   text-align: center;
