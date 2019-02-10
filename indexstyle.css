@@ -294,9 +294,9 @@ margin-left:auto;
 }
 
 .featuretest{
-    background-image: url('./index_images/soviet.jpg');
+    background-image: url('./index_images/crom.jpg');
     background-repeat: no-repeat;
-    background-position: 55% 20%;
+    background-position: 45% 37%;
     background-clip: padding-box;
     background-size: 115%;
     padding: 7.5%;/*73px;*/
